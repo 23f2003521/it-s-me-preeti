@@ -70,21 +70,18 @@ system:
 
 <hr/>
 
-### 📈 Core Metrics & Performance
+### 📊 Engineering Metrics & Focus
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <!-- Commits & PRs Stats Card -->
-        <img src="https://github-stats-extended.vercel.app/api?username=23f2003521&show_icons=true&theme=tokyonight&hide_border=true&bg_color=040308&title_color=ec4899&icon_color=06b6d4&text_color=94a3b8" width="100%" alt="Preeti's GitHub Stats" />
-      </td>
-      <td width="50%" align="center">
-        <!-- Most Used Languages Card -->
-        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=23f2003521&layout=compact&theme=tokyonight&hide_border=true&bg_color=040308&title_color=ec4899&icon_color=06b6d4&text_color=94a3b8" width="100%" alt="Preeti's Top Languages" />
-      </td>
-    </tr>
-  </table>
+
+| System Metric | Focus & Details | Status |
+| :--- | :--- | :---: |
+| **Research Engineering** | Sudha Gopalakrishnan Brain Centre (IIT Madras) | `ACTIVE` |
+| **Production Pipelines** | OpenAtlas (Angular/RxJS), Zoom Viewer (Django), BG Removal (OpenCV) | `DEPLOYED` |
+| **Systems Architecture** | Cross-Platform Adoptable Plugin Architectures | `IN_DEV` |
+| **Hackathon Performance** | Top 10 Finalist (KAYA AI IITM), Winner (SIH 2024 & 2025) | `COMPLETED` |
+| **Academic Foundation** | B.Tech in Electrical Engineering & BS in Data Science | `CLASS_OF_2026` |
+
 </div>
 
 <br/>
