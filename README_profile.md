@@ -124,9 +124,9 @@ system:
 
 <br/>
 
-<!-- Real-Time Activity Line Graph -->
+<!-- 3-Year Monthly Contributions Chart -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=23f2003521&theme=tokyo-night&hide_border=true&area=true&bg_color=040308" width="850" alt="Preeti's Activity Graph" />
+  <img src="https://raw.githubusercontent.com/23f2003521/it-s-me-preeti/main/contributions.svg" width="850" alt="Preeti's 3-Year Monthly Contributions" />
 </div>
 
 <br/>

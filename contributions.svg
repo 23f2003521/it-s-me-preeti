@@ -1,0 +1,81 @@
+<svg width="850" height="320" viewBox="0 0 850 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&amp;family=Share+Tech+Mono&amp;display=swap');
+    .title { font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 16px; fill: #00f0ff; letter-spacing: 2px; }
+    .subtitle { font-family: 'Outfit', sans-serif; font-weight: 400; font-size: 12px; fill: #64748b; }
+    .axis-lbl { font-family: 'Share Tech Mono', monospace; font-size: 10px; fill: #475569; }
+    .val-lbl { font-family: 'Share Tech Mono', monospace; font-size: 11px; fill: #38bdae; }
+    .grid-line { stroke: #1e1b4b; stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.5; }
+    .trend-line { stroke: url(#line-grad); stroke-width: 3.5; stroke-linecap: round; filter: drop-shadow(0px 0px 5px #ec4899); }
+    .area-fill { fill: url(#area-grad); opacity: 0.12; }
+    .neon-dot { fill: #040308; stroke: #00f0ff; stroke-width: 2; filter: drop-shadow(0px 0px 3px #00f0ff); }
+    .stat-text { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #ec4899; }
+  </style>
+  <defs>
+    <linearGradient id="area-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#040308" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#040308" rx="8" stroke="#1e1b4b" stroke-width="1.5" />
+  <text x="30" y="35" class="title">// SYSTEM_CONTRIBUTION_MAINFRAME</text>
+  <text x="30" y="52" class="subtitle">Monthly activity aggregation (Past 36 Months)</text>
+  <text x="820" y="42" text-anchor="end" class="stat-text">TOTAL_CONTRIBS: 163 | MAX_MONTHLY: 30</text>
+  <line x1="60" y1="70.0" x2="810" y2="70.0" class="grid-line" />
+  <text x="50" y="73.0" text-anchor="end" class="axis-lbl">30</text>
+  <line x1="60" y1="120.0" x2="810" y2="120.0" class="grid-line" />
+  <text x="50" y="123.0" text-anchor="end" class="axis-lbl">22</text>
+  <line x1="60" y1="170.0" x2="810" y2="170.0" class="grid-line" />
+  <text x="50" y="173.0" text-anchor="end" class="axis-lbl">15</text>
+  <line x1="60" y1="220.0" x2="810" y2="220.0" class="grid-line" />
+  <text x="50" y="223.0" text-anchor="end" class="axis-lbl">7</text>
+  <line x1="60" y1="270.0" x2="810" y2="270.0" class="grid-line" />
+  <text x="50" y="273.0" text-anchor="end" class="axis-lbl">0</text>
+  <line x1="60.0" y1="70" x2="60.0" y2="270" class="grid-line" />
+  <text x="60.0" y="290" text-anchor="middle" class="axis-lbl">Sep '23</text>
+  <line x1="124.28571428571428" y1="70" x2="124.28571428571428" y2="270" class="grid-line" />
+  <text x="124.28571428571428" y="290" text-anchor="middle" class="axis-lbl">Dec '23</text>
+  <line x1="188.57142857142856" y1="70" x2="188.57142857142856" y2="270" class="grid-line" />
+  <text x="188.57142857142856" y="290" text-anchor="middle" class="axis-lbl">Mar '24</text>
+  <line x1="252.85714285714283" y1="70" x2="252.85714285714283" y2="270" class="grid-line" />
+  <text x="252.85714285714283" y="290" text-anchor="middle" class="axis-lbl">Jun '24</text>
+  <line x1="317.1428571428571" y1="70" x2="317.1428571428571" y2="270" class="grid-line" />
+  <text x="317.1428571428571" y="290" text-anchor="middle" class="axis-lbl">Sep '24</text>
+  <line x1="381.4285714285714" y1="70" x2="381.4285714285714" y2="270" class="grid-line" />
+  <text x="381.4285714285714" y="290" text-anchor="middle" class="axis-lbl">Dec '24</text>
+  <line x1="445.71428571428567" y1="70" x2="445.71428571428567" y2="270" class="grid-line" />
+  <text x="445.71428571428567" y="290" text-anchor="middle" class="axis-lbl">Mar '25</text>
+  <line x1="509.99999999999994" y1="70" x2="509.99999999999994" y2="270" class="grid-line" />
+  <text x="509.99999999999994" y="290" text-anchor="middle" class="axis-lbl">Jun '25</text>
+  <line x1="574.2857142857142" y1="70" x2="574.2857142857142" y2="270" class="grid-line" />
+  <text x="574.2857142857142" y="290" text-anchor="middle" class="axis-lbl">Sep '25</text>
+  <line x1="638.5714285714286" y1="70" x2="638.5714285714286" y2="270" class="grid-line" />
+  <text x="638.5714285714286" y="290" text-anchor="middle" class="axis-lbl">Dec '25</text>
+  <line x1="702.8571428571428" y1="70" x2="702.8571428571428" y2="270" class="grid-line" />
+  <text x="702.8571428571428" y="290" text-anchor="middle" class="axis-lbl">Mar '26</text>
+  <line x1="767.1428571428571" y1="70" x2="767.1428571428571" y2="270" class="grid-line" />
+  <text x="767.1428571428571" y="290" text-anchor="middle" class="axis-lbl">Jun '26</text>
+  <line x1="810.0" y1="70" x2="810.0" y2="270" class="grid-line" />
+  <text x="810.0" y="290" text-anchor="middle" class="axis-lbl">Aug '26</text>
+  <path d="M 60.0 270 L 60.0 270.0 L 81.42857142857143 270.0 L 102.85714285714286 270.0 L 124.28571428571428 270.0 L 145.71428571428572 270.0 L 167.14285714285714 270.0 L 188.57142857142856 270.0 L 210.0 270.0 L 231.42857142857142 270.0 L 252.85714285714283 270.0 L 274.2857142857143 263.3333333333333 L 295.71428571428567 270.0 L 317.1428571428571 256.6666666666667 L 338.57142857142856 216.66666666666666 L 360.0 270.0 L 381.4285714285714 270.0 L 402.85714285714283 270.0 L 424.2857142857143 270.0 L 445.71428571428567 270.0 L 467.1428571428571 270.0 L 488.57142857142856 263.3333333333333 L 509.99999999999994 216.66666666666666 L 531.4285714285713 183.33333333333331 L 552.8571428571429 203.33333333333334 L 574.2857142857142 130.0 L 595.7142857142857 270.0 L 617.1428571428571 270.0 L 638.5714285714286 270.0 L 660.0 70.0 L 681.4285714285713 90.0 L 702.8571428571428 163.33333333333331 L 724.2857142857142 270.0 L 745.7142857142857 270.0 L 767.1428571428571 243.33333333333334 L 788.5714285714286 250.0 L 810.0 143.33333333333334 L 810.0 270 Z" class="area-fill" />
+  <path d="M 60.0 270.0 L 81.42857142857143 270.0 L 102.85714285714286 270.0 L 124.28571428571428 270.0 L 145.71428571428572 270.0 L 167.14285714285714 270.0 L 188.57142857142856 270.0 L 210.0 270.0 L 231.42857142857142 270.0 L 252.85714285714283 270.0 L 274.2857142857143 263.3333333333333 L 295.71428571428567 270.0 L 317.1428571428571 256.6666666666667 L 338.57142857142856 216.66666666666666 L 360.0 270.0 L 381.4285714285714 270.0 L 402.85714285714283 270.0 L 424.2857142857143 270.0 L 445.71428571428567 270.0 L 467.1428571428571 270.0 L 488.57142857142856 263.3333333333333 L 509.99999999999994 216.66666666666666 L 531.4285714285713 183.33333333333331 L 552.8571428571429 203.33333333333334 L 574.2857142857142 130.0 L 595.7142857142857 270.0 L 617.1428571428571 270.0 L 638.5714285714286 270.0 L 660.0 70.0 L 681.4285714285713 90.0 L 702.8571428571428 163.33333333333331 L 724.2857142857142 270.0 L 745.7142857142857 270.0 L 767.1428571428571 243.33333333333334 L 788.5714285714286 250.0 L 810.0 143.33333333333334" class="trend-line" />
+  <circle cx="274.2857142857143" cy="263.3333333333333" r="4" class="neon-dot" />
+  <text x="274.2857142857143" y="255.33333333333331" text-anchor="middle" class="val-lbl">1</text>
+  <circle cx="338.57142857142856" cy="216.66666666666666" r="4" class="neon-dot" />
+  <text x="338.57142857142856" y="208.66666666666666" text-anchor="middle" class="val-lbl">8</text>
+  <circle cx="531.4285714285713" cy="183.33333333333331" r="4" class="neon-dot" />
+  <text x="531.4285714285713" y="175.33333333333331" text-anchor="middle" class="val-lbl">13</text>
+  <circle cx="574.2857142857142" cy="130.0" r="4" class="neon-dot" />
+  <text x="574.2857142857142" y="122.0" text-anchor="middle" class="val-lbl">21</text>
+  <circle cx="660.0" cy="70.0" r="4" class="neon-dot" />
+  <text x="660.0" y="62.0" text-anchor="middle" class="val-lbl">30</text>
+  <circle cx="767.1428571428571" cy="243.33333333333334" r="4" class="neon-dot" />
+  <text x="767.1428571428571" y="235.33333333333334" text-anchor="middle" class="val-lbl">4</text>
+  <circle cx="810.0" cy="143.33333333333334" r="4" class="neon-dot" />
+  <text x="810.0" y="135.33333333333334" text-anchor="middle" class="val-lbl">19</text>
+</svg>

@@ -1,0 +1,32 @@
+name: Generate Contributions Chart
+on:
+  schedule:
+    - cron: '0 0 * * *' # runs every day at midnight
+  workflow_dispatch: # allows running manually
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/generate_contributions.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Run Generator
+        run: python scripts/generate_contributions.py
+        
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add contributions.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update contribution chart [skip ci]" && git push)
