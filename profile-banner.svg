@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+    <!-- Styles for interactive and glowing elements -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&amp;family=Fira+Code:wght@400;500&amp;display=swap');
+        
+        .bg {
+            fill: #06050a;
+        }
+        
+        .title {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 52px;
+            font-weight: 800;
+            fill: url(#title-grad);
+            letter-spacing: -0.03em;
+        }
+        
+        .sub {
+            font-family: 'Fira Code', monospace;
+            font-size: 18px;
+            font-weight: 500;
+            fill: #06b6d4;
+            filter: drop-shadow(0px 0px 8px rgba(6, 182, 212, 0.6));
+        }
+
+        .terminal-box {
+            fill: rgba(255, 255, 255, 0.02);
+            stroke: rgba(255, 255, 255, 0.05);
+            stroke-width: 1.5;
+            rx: 12;
+        }
+
+        .dots {
+            fill: #475569;
+        }
+
+        .dot-red { fill: #ef4444; }
+        .dot-yellow { fill: #eab308; }
+        .dot-green { fill: #22c55e; }
+        
+        /* Floating animations for neon blobs */
+        .blob {
+            filter: blur(50px);
+            opacity: 0.15;
+            animation: float 16s infinite alternate ease-in-out;
+        }
+        
+        .blob-1 {
+            fill: #6366f1;
+            animation-delay: 0s;
+        }
+        
+        .blob-2 {
+            fill: #ec4899;
+            animation-delay: -8s;
+        }
+        
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(80px, -40px) scale(1.2); }
+            100% { transform: translate(-40px, 60px) scale(0.9); }
+        }
+
+        /* Typewriter Animation */
+        .typewriter {
+            overflow: hidden;
+            border-right: .15em solid #ec4899;
+            white-space: nowrap;
+            letter-spacing: .15em;
+            animation: 
+                typing 6s steps(40, end) infinite,
+                blink-caret .75s step-end infinite;
+        }
+
+        /* Path drawing animation for grid */
+        .grid-line {
+            stroke: rgba(255, 255, 255, 0.015);
+            stroke-width: 1;
+        }
+    </style>
+    
+    <!-- Gradients -->
+    <defs>
+        <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff" />
+            <stop offset="60%" stop-color="#6366f1" />
+            <stop offset="100%" stop-color="#ec4899" />
+        </linearGradient>
+        <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6366f1" />
+            <stop offset="50%" stop-color="#06b6d4" />
+            <stop offset="100%" stop-color="#ec4899" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Canvas BG -->
+    <rect width="100%" height="100%" class="bg" rx="16" />
+    
+    <!-- Tech Grid Lines -->
+    <g>
+        <line x1="50" y1="0" x2="50" y2="300" class="grid-line" />
+        <line x1="100" y1="0" x2="100" y2="300" class="grid-line" />
+        <line x1="150" y1="0" x2="150" y2="300" class="grid-line" />
+        <line x1="200" y1="0" x2="200" y2="300" class="grid-line" />
+        <line x1="250" y1="0" x2="250" y2="300" class="grid-line" />
+        <line x1="300" y1="0" x2="300" y2="300" class="grid-line" />
+        <line x1="350" y1="0" x2="350" y2="300" class="grid-line" />
+        <line x1="400" y1="0" x2="400" y2="300" class="grid-line" />
+        <line x1="450" y1="0" x2="450" y2="300" class="grid-line" />
+        <line x1="500" y1="0" x2="500" y2="300" class="grid-line" />
+        <line x1="550" y1="0" x2="550" y2="300" class="grid-line" />
+        <line x1="600" y1="0" x2="600" y2="300" class="grid-line" />
+        <line x1="650" y1="0" x2="650" y2="300" class="grid-line" />
+        <line x1="700" y1="0" x2="700" y2="300" class="grid-line" />
+        <line x1="750" y1="0" x2="750" y2="300" class="grid-line" />
+        
+        <line x1="0" y1="50" x2="800" y2="50" class="grid-line" />
+        <line x1="0" y1="100" x2="800" y2="100" class="grid-line" />
+        <line x1="0" y1="150" x2="800" y2="150" class="grid-line" />
+        <line x1="0" y1="200" x2="800" y2="200" class="grid-line" />
+        <line x1="0" y1="250" x2="800" y2="250" class="grid-line" />
+    </g>
+
+    <!-- Glowing Blobs -->
+    <circle cx="200" cy="100" r="120" class="blob blob-1" />
+    <circle cx="600" cy="200" r="140" class="blob blob-2" />
+    
+    <!-- Neon Accent Top/Bottom Borders -->
+    <rect x="0" y="0" width="800" height="4" fill="url(#border-grad)" />
+    <rect x="0" y="296" width="800" height="4" fill="url(#border-grad)" />
+
+    <!-- Terminal Container -->
+    <rect x="50" y="45" width="700" height="210" class="terminal-box" />
+    
+    <!-- Terminal Header Dots -->
+    <circle cx="75" cy="70" r="6" class="dot-red" />
+    <circle cx="95" cy="70" r="6" class="dot-yellow" />
+    <circle cx="115" cy="70" r="6" class="dot-green" />
+
+    <!-- Text Contents -->
+    <text x="75" y="145" class="title">Preeti Maurya</text>
+    <text x="75" y="195" class="sub">> Full-Stack Dev &amp; Data Scientist</text>
+    <text x="75" y="225" font-family="'Fira Code', monospace" font-size="14" fill="#94a3b8">> Pursuing BS @ IIT Madras | B.Tech @ REC Sonbhadra</text>
+
+    <!-- Cyberpunk Decorative lines -->
+    <path d="M720,55 L740,55 L740,75" stroke="#ec4899" stroke-width="2" fill="none" />
+    <path d="M80,245 L60,245 L60,225" stroke="#6366f1" stroke-width="2" fill="none" />
+</svg>
