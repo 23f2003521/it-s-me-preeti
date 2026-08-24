@@ -39,9 +39,9 @@ system:
   operational_status: "Interning & Engineering"
 ```
 
-*   🔭 **Current Mission**: Developing Google-Maps style hierarchical brain annotation viewers (Detection Dev Studio) and building OpenCV image background contour extraction pipelines.
+*   🔭 **Current Mission**: Designing and building a **cross-platform adoptable plugin architecture** for high-performance research tools and biological annotation frameworks.
 *   🏆 **Hackathons**: **Top 10 Finalist** at **KAYA AI IIT Hackathon 2026** with *Meridian AI* (AI-powered procurement engine).
-*   📚 **Academics**: Pursuing **BS in Data Science & Applications (Diploma Level, GPA: 6.8/10)** at **IIT Madras** and **B.Tech in Electrical Engineering (GPA: 8.6/10)**. Qualified **GATE Data Science 2025**.
+*   📚 **Academics**: Pursuing **BS in Data Science & Applications (Diploma Level)** at **IIT Madras** and **B.Tech in Electrical Engineering (Graduated 2026, GPA: 8.6/10)**. Qualified **GATE Data Science 2025**.
 
 <hr/>
 

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const words = [
         "Junior Software Developer @ SGBC IITM",
         "Data Science Student @ IIT Madras",
-        "Backend & Systems Engineer",
+        "Building Cross-Platform Plugin Architectures",
         "AI/ML On-Campus Lead 2025"
     ];
     let wordIndex = 0;
