@@ -1,7 +1,7 @@
 name: Generate Contributions Chart
 on:
   schedule:
-    - cron: '0 0 * * *' # runs every day at midnight
+    - cron: '0 0 */15 * *' # runs every 15 days at midnight
   workflow_dispatch: # allows running manually
   push:
     branches:
