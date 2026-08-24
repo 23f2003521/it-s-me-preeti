@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preeti Maurya - Full-Stack Developer & Data Science Student at IIT Madras. Portfolio showcasing web development and data science projects.">
+    <meta name="keywords" content="Preeti Maurya, Portfolio, Full-Stack Developer, Data Science, IIT Madras, Flask, Django, React, Vue, Python">
+    <meta name="author" content="Preeti Maurya">
+    <title>Preeti Maurya | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glowing Blob Canvas Effect -->
+    <div class="blob-container">
+        <div class="glowing-blob blob-purple"></div>
+        <div class="glowing-blob blob-blue"></div>
+        <div class="glowing-blob blob-cyan"></div>
+    </div>
+    
+    <!-- Grid Overlay for Tech Vibe -->
+    <div class="grid-overlay"></div>
+
+    <!-- Header & Floating Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>PM<span class="logo-accent"> /&gt;</span>
+            </a>
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active" id="nav-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-about">About & Skills</a>
+                <a href="#experience" class="nav-link" id="nav-experience">Experience</a>
+                <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+                <a href="#education" class="nav-link" id="nav-education">Education</a>
+                <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-greeting-badge">
+                        <span class="pulse-dot"></span>
+                        Available for Internships & Full-Time Roles
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Preeti Maurya</span>
+                    </h1>
+                    <div class="terminal-dynamic">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-text" id="typewriter"></span>
+                        <span class="terminal-cursor">|</span>
+                    </div>
+                    <p class="hero-subtitle">
+                        Full-Stack Developer & Data Science student at <strong>IIT Madras</strong>. 
+                        I bridge the gap between robust backend architectures and sleek, interactive user experiences.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/preetimaurya10" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/preeti-maurya-iitm" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:preetimaurya1004@gmail.com" class="social-icon" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="tech-stack-universe">
+                        <div class="center-core">
+                            <span class="core-text">DATA<br>+<br>DEV</span>
+                        </div>
+                        <div class="orbit-ring orbit-1">
+                            <div class="orbit-node node-python" title="Python">Py</div>
+                            <div class="orbit-node node-react" title="React">Re</div>
+                        </div>
+                        <div class="orbit-ring orbit-2">
+                            <div class="orbit-node node-django" title="Django">Dj</div>
+                            <div class="orbit-node node-vue" title="Vue 3">Vu</div>
+                            <div class="orbit-node node-flask" title="Flask">Fl</div>
+                        </div>
+                        <div class="orbit-ring orbit-3">
+                            <div class="orbit-node node-ml" title="Scikit-Learn">ML</div>
+                            <div class="orbit-node node-sql" title="SQL">SQL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll Down">
+                <span class="mouse-wheel"></span>
+            </a>
+        </section>
+
+        <!-- About & Skills Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">About Me & Skills</h2>
+                    <p class="section-subtitle">A blend of computer science, data structures, and dynamic web design.</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-bio glass-card">
+                        <h3>My Journey</h3>
+                        <p>
+                            I am a dual-track student balancing a rigorous background in engineering and advanced computing. Currently pursuing my <strong>BS in Data Science and Applications at IIT Madras</strong> alongside my <strong>B.Tech in Electrical Engineering</strong>, I develop software systems driven by data insight.
+                        </p>
+                        <p>
+                            My approach focuses on writing modular, well-tested code and building systems that scale. From designing complex biological imaging pipelines at research centers to architecting wellbeing databases, I love solving hard backend engineering problems and packing them into beautiful, responsive web applications.
+                        </p>
+                        <div class="bio-stats">
+                            <div class="stat-item">
+                                <span class="stat-num">8.6</span>
+                                <span class="stat-lbl">B.Tech GPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">7.15</span>
+                                <span class="stat-lbl">IITM GPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-num">2025</span>
+                                <span class="stat-lbl">GATE DA Qualified</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-skills">
+                        <div class="skills-categories-grid">
+                            <!-- Programming -->
+                            <div class="skills-card glass-card" data-skill-group="programming">
+                                <div class="skills-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                </div>
+                                <h4>Programming</h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag highlight-python">Python</span>
+                                    <span class="skill-tag">C++</span>
+                                    <span class="skill-tag">SQL</span>
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">Bash</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Backend -->
+                            <div class="skills-card glass-card" data-skill-group="backend">
+                                <div class="skills-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                                </div>
+                                <h4>Backend</h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag highlight-django">Django (DRF)</span>
+                                    <span class="skill-tag highlight-flask">Flask</span>
+                                    <span class="skill-tag">RESTful APIs</span>
+                                    <span class="skill-tag">Celery</span>
+                                    <span class="skill-tag">Redis</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Frontend -->
+                            <div class="skills-card glass-card" data-skill-group="frontend">
+                                <div class="skills-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                                </div>
+                                <h4>Frontend</h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag highlight-react">React</span>
+                                    <span class="skill-tag highlight-vue">Vue 3</span>
+                                    <span class="skill-tag">Tailwind CSS</span>
+                                    <span class="skill-tag">Bootstrap</span>
+                                    <span class="skill-tag">Chart.js</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Data & ML / Databases -->
+                            <div class="skills-card glass-card" data-skill-group="data">
+                                <div class="skills-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                                </div>
+                                <h4>Data & ML / Databases</h4>
+                                <div class="skills-tags">
+                                    <span class="skill-tag">Pandas</span>
+                                    <span class="skill-tag">NumPy</span>
+                                    <span class="skill-tag">Scikit-learn</span>
+                                    <span class="skill-tag">SQLite</span>
+                                    <span class="skill-tag">SQLAlchemy</span>
+                                    <span class="skill-tag">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Timeline -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Work Experience</h2>
+                    <p class="section-subtitle">Real-world application development and engineering in action.</p>
+                </div>
+                
+                <div class="experience-timeline">
+                    <!-- Current Position -->
+                    <div class="timeline-item">
+                        <div class="timeline-badge">
+                            <span class="timeline-badge-glow"></span>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div class="job-meta">
+                                    <span class="job-duration">Feb 2026 – Present</span>
+                                    <h3 class="job-title">Full Stack Intern</h3>
+                                    <span class="job-company">Sudha Gopalakrishnan Brain Centre, IIT Madras</span>
+                                </div>
+                                <div class="company-logo-stub">IITM</div>
+                            </div>
+                            
+                            <p class="job-summary">
+                                Designing and deploying scalable full-stack plugins, classical computer vision pipelines, and responsive tools for high-performance brain imaging datasets.
+                            </p>
+                            
+                            <div class="internship-projects-grid">
+                                <!-- Intern Project 1 -->
+                                <div class="iproject-card">
+                                    <h5>Zoom-Level Annotation Viewer</h5>
+                                    <p>Built a Google Maps-style hierarchical brain annotation plugin for Detection Dev Studio, rendering JSON-annotated sections by zoom level (broad regions to sub-regions). Containerized and deployed via Docker Compose.</p>
+                                    <div class="iproject-tech">
+                                        <span>Docker</span><span>Django</span><span>REST APIs</span><span>JSON Mapping</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Intern Project 2 -->
+                                <div class="iproject-card">
+                                    <h5>Background Removal Pipeline</h5>
+                                    <p>Developed a classical computer vision background removal pipeline for brain images. Processes at reduced scales, creates precise contour masks, and overlays results onto full Whole Slide Images (WSIs). Wrapped as a CLI tool.</p>
+                                    <div class="iproject-tech">
+                                        <span>Python</span><span>OpenCV</span><span>WSI Processing</span><span>CLI Development</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Intern Project 3 -->
+                                <div class="iproject-card">
+                                    <h5>Cloud-Protected Scraper</h5>
+                                    <p>Architected an automated scraper utilizing Selenium to extract structured brain-region data from Cloudflare-protected sites, bypassing dynamic forms and complex checkbox sequences.</p>
+                                    <div class="iproject-tech">
+                                        <span>Python</span><span>Selenium</span><span>Web Scraping</span><span>Automation</span>
+                                    </div>
+                                </div>
+                                
+                                <!-- Intern Project 4 -->
+                                <div class="iproject-card">
+                                    <h5>OpenAtlasEditor Redesign</h5>
+                                    <p>Redesigned a legacy fixed-viewport web mapping tool into a modern, fluid, and fully responsive layout across all device screens.</p>
+                                    <div class="iproject-tech">
+                                        <span>Angular</span><span>JsTree</span><span>OpenLayers</span><span>CSS Grid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">A showcase of full-stack products built from the ground up.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <span class="project-role-badge">Team Lead</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Demo Link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">CampusCare</h3>
+                            <p class="project-tagline">Student Wellbeing & Health Analytics Platform</p>
+                            <p class="project-description">
+                                Led the backend development of a comprehensive student mental health platform. Integrated standardized clinical screening tools (PHQ-9, GAD-7, GHQ) and generated rich analytics dashboards. Used asynchronous job processing for background tasks.
+                            </p>
+                            <div class="project-visual-mockup mockup-wellbeing">
+                                <!-- Styled Mini Analytics Graph -->
+                                <div class="mockup-chart-container">
+                                    <div class="mockup-chart-bar" style="--val: 40%"></div>
+                                    <div class="mockup-chart-bar" style="--val: 75%"></div>
+                                    <div class="mockup-chart-bar" style="--val: 55%"></div>
+                                    <div class="mockup-chart-bar" style="--val: 90%"></div>
+                                </div>
+                                <span class="mockup-lbl">Student Health Index</span>
+                            </div>
+                            <div class="project-tech-badges">
+                                <span>Django REST</span>
+                                <span>React</span>
+                                <span>Celery</span>
+                                <span>Redis</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <span class="project-role-badge">Full-Stack</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Project Link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-name">SmartPark</h3>
+                            <p class="project-tagline">Real-Time Vehicle Parking Management System</p>
+                            <p class="project-description">
+                                Built an end-to-end parking management system featuring booking, release, and live monitoring. Included administrative dashboards, user booking history, secure JWT authorization, and automated overstay alerts.
+                            </p>
+                            <div class="project-visual-mockup mockup-parking">
+                                <!-- Styled spots dashboard mockup -->
+                                <div class="mockup-spots">
+                                    <span class="spot-dot occupied"></span>
+                                    <span class="spot-dot free"></span>
+                                    <span class="spot-dot occupied"></span>
+                                    <span class="spot-dot free"></span>
+                                    <span class="spot-dot free"></span>
+                                </div>
+                                <span class="mockup-lbl">Zone A: 3/5 Free</span>
+                            </div>
+                            <div class="project-tech-badges">
+                                <span>Flask</span>
+                                <span>Vue JS</span>
+                                <span>SQLAlchemy</span>
+                                <span>Redis</span>
+                                <span>Celery</span>
+                                <span>Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="edu-achieve-grid">
+                    <!-- Education -->
+                    <div class="education-column">
+                        <h2 class="section-title">Education</h2>
+                        <div class="edu-cards-list">
+                            <!-- Card 1 -->
+                            <div class="edu-card glass-card">
+                                <div class="edu-year">May 2023 – Present</div>
+                                <h4>BS in Data Science and Applications</h4>
+                                <p class="edu-inst">Indian Institute of Technology Madras (IITM)</p>
+                                <div class="edu-grade">GPA: <strong>7.15 / 10</strong></div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="edu-card glass-card">
+                                <div class="edu-year">Nov 2022 – May 2026</div>
+                                <h4>B.Tech in Electrical Engineering</h4>
+                                <p class="edu-inst">Rajkiya Engineering College Sonbhadra</p>
+                                <div class="edu-grade">GPA: <strong>8.6 / 10</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Achievements -->
+                    <div class="achievements-column">
+                        <h2 class="section-title">Achievements</h2>
+                        <div class="achieve-cards-list">
+                            <!-- Achievement 1 -->
+                            <div class="achieve-card glass-card">
+                                <div class="achieve-icon">🏆</div>
+                                <div class="achieve-info">
+                                    <h4>Hackathon Winner</h4>
+                                    <p>Winner of the Internal Hackathon for Smart India Hackathon (SIH) 2024 & 2025.</p>
+                                </div>
+                            </div>
+                            <!-- Achievement 2 -->
+                            <div class="achieve-card glass-card">
+                                <div class="achieve-icon">🚀</div>
+                                <div class="achieve-info">
+                                    <h4>GDG AI/ML On-Campus Lead</h4>
+                                    <p>Appointed Google Developer Groups AI/ML On-Campus Lead for the 2025 tenure.</p>
+                                </div>
+                            </div>
+                            <!-- Achievement 3 -->
+                            <div class="achieve-card glass-card">
+                                <div class="achieve-icon">📊</div>
+                                <div class="achieve-info">
+                                    <h4>GATE Data Science Qualified</h4>
+                                    <p>Qualified GATE Data Science & AI (DA) 2025 examination.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Reach out for collaborations, project building, or career opportunities.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Quick Info -->
+                    <div class="contact-info glass-card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to copy details directly or reach out through my socials.</p>
+                        
+                        <div class="contact-methods">
+                            <!-- Email -->
+                            <div class="contact-method-card" id="copy-email-btn">
+                                <div class="c-method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="c-method-details">
+                                    <span class="c-label">Email</span>
+                                    <span class="c-value">preetimaurya1004@gmail.com</span>
+                                </div>
+                                <button class="c-copy-btn" aria-label="Copy Email">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                </button>
+                            </div>
+                            
+                            <!-- Phone -->
+                            <div class="contact-method-card" id="copy-phone-btn">
+                                <div class="c-method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="c-method-details">
+                                    <span class="c-label">Phone</span>
+                                    <span class="c-value">+91-9170639649</span>
+                                </div>
+                                <button class="c-copy-btn" aria-label="Copy Phone Number">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-container glass-card">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" placeholder="Project Collaboration Idea" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" placeholder="Let's build something premium together..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Send Message
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Preeti Maurya. Built with speed and precision.</p>
+            <div class="footer-links">
+                <a href="https://github.com/preetimaurya10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/preeti-maurya-iitm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification for Clipboards -->
+    <div class="toast" id="toast">Copied to clipboard!</div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
