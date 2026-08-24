@@ -1,13 +1,13 @@
-<!-- Cyberpunk/Techie-Baddie Premium GitHub Profile README -->
+<!-- Cyberpunk/Modern Premium GitHub Profile README -->
 <div align="center">
   
   <!-- Animated SVG Header Banner -->
-  <img src="https://raw.githubusercontent.com/23f2003521/it-s-me-preeti/main/profile-banner.svg" width="850" alt="Preeti Maurya - Techie Baddie Mainframe" />
+  <img src="https://raw.githubusercontent.com/23f2003521/it-s-me-preeti/main/profile-banner.svg" width="850" alt="Preeti Maurya - Full-Stack Developer & AI Enthusiast" />
 
   <br/><br/>
   
   <!-- Slogan Banner -->
-  <h3>⚡ Welcome to the Mainframe of a Code-Slaying Baddie ⚡</h3>
+  <h3>⚡ Welcome to the Mainframe of a Full-Stack Developer & AI Enthusiast ⚡</h3>
   <p>
     I code robust backend architectures, wrangle complex neural/data pipelines, and design gorgeous glassmorphic user interfaces.
   </p>
@@ -15,7 +15,7 @@
   <!-- Interactive Social Badges -->
   <p align="center">
     <a href="https://linkedin.com/in/preeti-maurya-iitm" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Baddie-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=6366f1" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Preeti-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=6366f1" alt="LinkedIn" />
     </a>
     <a href="mailto:preetimaurya1004@gmail.com">
       <img src="https://img.shields.io/badge/Email-Get%20in%20touch-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white&color=ec4899" alt="Email" />
@@ -35,8 +35,8 @@ system:
   user: "23f2003521 (Preeti Maurya)"
   current_matrix: "Sudha Gopalakrishnan Brain Centre, IIT Madras"
   roles: ["Full-Stack Dev", "Data Scientist", "GDG AI/ML On-Campus Lead 2025"]
-  vibe: "Techie Baddie 💅💻"
-  operational_status: "Interning & Slaying"
+  vibe: "Aesthetic Coding & Machine Learning 💻✨"
+  operational_status: "Interning & Engineering"
 ```
 
 *   🔭 **Current Mission**: Developing Google-Maps style hierarchical brain annotation viewers (Detection Dev Studio) and building OpenCV image background contour extraction pipelines.

@@ -182,7 +182,7 @@
     <g transform="translate(680, 10)">
         <rect width="130" height="16" rx="4" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(255, 255, 255, 0.05)" />
         <circle cx="12" cy="8" r="4.5" class="status-dot" />
-        <text x="24" y="12" font-family="'Fira Code', monospace" font-size="9" fill="#10b981" font-weight="bold">SLAY_SERVER: ONLINE</text>
+        <text x="24" y="12" font-family="'Fira Code', monospace" font-size="9" fill="#10b981" font-weight="bold">SYSTEMS_NODE: ONLINE</text>
     </g>
 
     <!-- ================= LEFT: 3D HOLO ORB ================= -->
@@ -211,17 +211,17 @@
         
         <!-- Terminal Prompts -->
         <text x="25" y="40" class="hud-title glitch-text">PREETI MAURYA</text>
-        <text x="25" y="65" class="hud-subtitle">> CORE_SYS_INITIALIZED // TECHIE_BADDIE_MODE</text>
+        <text x="25" y="65" class="hud-subtitle">> CORE_SYS_INITIALIZED // SOFTWARE_DEVELOPER_MODE</text>
         
         <g transform="translate(25, 95)">
             <text x="0" y="0" class="code-text"><tspan class="code-accent">$</tspan> preeti --status</text>
-            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Full-Stack Dev &amp; Data Scientist</text>
+            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Full-Stack Dev &amp; AI/ML Enthusiast</text>
             <text x="20" y="40" class="code-text"><tspan class="code-cyan">Base:</tspan> IIT Madras (Data Science) &amp; REC Sonbhadra</text>
             <text x="20" y="60" class="code-text"><tspan class="code-cyan">Current:</tspan> Interning @ Sudha Gopalakrishnan Brain Centre</text>
             
-            <text x="0" y="95" class="code-text"><tspan class="code-accent">$</tspan> preeti --vibe</text>
-            <text x="20" y="115" class="code-text"><tspan class="code-cyan">Metrics:</tspan> Slay-Coefficient: <tspan class="code-green">MAXIMUM_OVERFLOW</tspan></text>
-            <text x="20" y="135" class="code-text"><tspan class="code-cyan">Motto:</tspan> "Code beautifully. Deploy cleanly. Slay daily."</text>
+            <text x="0" y="95" class="code-text"><tspan class="code-accent">$</tspan> preeti --performance</text>
+            <text x="20" y="115" class="code-text"><tspan class="code-cyan">Metrics:</tspan> Compilation: <tspan class="code-green">SUCCESS_100%</tspan></text>
+            <text x="20" y="135" class="code-text"><tspan class="code-cyan">Motto:</tspan> "Code beautifully. Deploy cleanly. Optimize daily."</text>
         </g>
         
         <!-- Blinking cursor -->
