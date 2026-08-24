@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Dynamic Typewriter Effect ---
     const typewriterElement = document.getElementById('typewriter');
     const words = [
-        "Full-Stack Developer",
+        "Junior Software Developer @ SGBC IITM",
         "Data Science Student @ IIT Madras",
-        "Backend Architecture Enthusiast",
+        "Backend & Systems Engineer",
         "AI/ML On-Campus Lead 2025"
     ];
     let wordIndex = 0;

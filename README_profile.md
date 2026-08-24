@@ -41,7 +41,7 @@ system:
 
 *   🔭 **Current Mission**: Developing Google-Maps style hierarchical brain annotation viewers (Detection Dev Studio) and building OpenCV image background contour extraction pipelines.
 *   🏆 **Hackathons**: **Top 10 Finalist** at **KAYA AI IIT Hackathon 2026** with *Meridian AI* (AI-powered procurement engine).
-*   📚 **Academics**: Pursuing **BS in Data Science** at **IIT Madras** and **B.Tech in Electrical Engineering**. Qualified **GATE Data Science 2025**.
+*   📚 **Academics**: Pursuing **BS in Data Science & Applications (Diploma Level, GPA: 6.8/10)** at **IIT Madras** and **B.Tech in Electrical Engineering (GPA: 8.6/10)**. Qualified **GATE Data Science 2025**.
 
 <hr/>
 
@@ -58,7 +58,8 @@ system:
   
   <br/>
   
-  <!-- Frontend & ML Badges -->
+  <!-- Frontend, ML & Tools Badges -->
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />

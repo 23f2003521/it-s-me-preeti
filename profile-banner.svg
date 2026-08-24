@@ -215,9 +215,9 @@
         
         <g transform="translate(25, 95)">
             <text x="0" y="0" class="code-text"><tspan class="code-accent">$</tspan> preeti --status</text>
-            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Full-Stack Dev &amp; AI/ML Enthusiast</text>
+            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Jr. Software Developer @ SGBC IITM</text>
             <text x="20" y="40" class="code-text"><tspan class="code-cyan">Base:</tspan> IIT Madras (Data Science) &amp; REC Sonbhadra</text>
-            <text x="20" y="60" class="code-text"><tspan class="code-cyan">Current:</tspan> Interning @ Sudha Gopalakrishnan Brain Centre</text>
+            <text x="20" y="60" class="code-text"><tspan class="code-cyan">Current:</tspan> Building research tools &amp; pipelines @ SGBC</text>
             
             <text x="0" y="95" class="code-text"><tspan class="code-accent">$</tspan> preeti --performance</text>
             <text x="20" y="115" class="code-text"><tspan class="code-cyan">Metrics:</tspan> Compilation: <tspan class="code-green">SUCCESS_100%</tspan></text>
