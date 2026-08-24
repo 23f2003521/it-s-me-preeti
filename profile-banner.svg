@@ -211,11 +211,11 @@
         
         <!-- Terminal Prompts -->
         <text x="25" y="40" class="hud-title glitch-text">PREETI MAURYA</text>
-        <text x="25" y="65" class="hud-subtitle">> CORE_SYS_INITIALIZED // SOFTWARE_DEVELOPER_MODE</text>
+        <text x="25" y="65" class="hud-subtitle">> CORE_SYS_INITIALIZED</text>
         
         <g transform="translate(25, 95)">
             <text x="0" y="0" class="code-text"><tspan class="code-accent">$</tspan> preeti --status</text>
-            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Jr. Software Developer @ SGBC IITM</text>
+            <text x="20" y="20" class="code-text"><tspan class="code-cyan">Class:</tspan> Software Developer</text>
             <text x="20" y="40" class="code-text"><tspan class="code-cyan">Base:</tspan> IIT Madras (Data Science) &amp; REC Sonbhadra</text>
             <text x="20" y="60" class="code-text"><tspan class="code-cyan">Current:</tspan> Building research tools &amp; pipelines @ SGBC</text>
             

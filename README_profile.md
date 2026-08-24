@@ -36,10 +36,10 @@ system:
   current_matrix: "Sudha Gopalakrishnan Brain Centre, IIT Madras"
   roles: ["Full-Stack Dev", "Data Scientist", "GDG AI/ML On-Campus Lead 2025"]
   vibe: "Aesthetic Coding & Machine Learning 💻✨"
-  operational_status: "Interning & Engineering"
+  operational_status: "Developing cross-platform plugin architectures & research tools (Junior Software Developer)"
 ```
 
-*   🔭 **Current Mission**: Designing and building a **cross-platform adoptable plugin architecture** for high-performance research tools and biological annotation frameworks.
+*   🔭 **Current Mission**: Making a **cross-platform adoptable plugin architecture** for high-performance research tools.
 *   🏆 **Hackathons**: **Top 10 Finalist** at **KAYA AI IIT Hackathon 2026** with *Meridian AI* (AI-powered procurement engine).
 *   📚 **Academics**: Pursuing **BS in Data Science & Applications (Diploma Level)** at **IIT Madras** and **B.Tech in Electrical Engineering (Graduated 2026, GPA: 8.6/10)**. Qualified **GATE Data Science 2025**.
 
