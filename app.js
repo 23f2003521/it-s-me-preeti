@@ -196,32 +196,64 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Premium Contact Form Handler ---
+    // --- Premium Contact Form Handler (FormSubmit API Integration) ---
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
+        contactForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             
             // Collect Form Values
-            const name = document.getElementById('form-name').value;
-            const email = document.getElementById('form-email').value;
-            const subject = document.getElementById('form-subject').value;
-            const message = document.getElementById('form-message').value;
+            const name = document.getElementById('form-name').value.trim();
+            const email = document.getElementById('form-email').value.trim();
+            const subject = document.getElementById('form-subject').value.trim();
+            const message = document.getElementById('form-message').value.trim();
+
+            if (!name || !email || !message) {
+                showToast("Please fill in all required fields.");
+                return;
+            }
 
             // Submit visual feedback
             const submitBtn = contactForm.querySelector('.btn-submit');
             const originalBtnHtml = submitBtn.innerHTML;
             
             submitBtn.disabled = true;
-            submitBtn.innerHTML = `Sending... <span class="spinner"></span>`;
+            submitBtn.innerHTML = `Sending... <span class="spinner" style="display:inline-block;width:14px;height:14px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin 0.8s linear infinite;margin-left:6px;vertical-align:middle;"></span>`;
             
-            // Simulating successful email dispatch (which can be wired to EmailJS/Formspree easily)
-            setTimeout(() => {
-                showToast(`Thank you, ${name}! Your message has been sent.`);
-                contactForm.reset();
+            try {
+                const response = await fetch("https://formsubmit.co/ajax/preetimaurya1004@gmail.com", {
+                    method: "POST",
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        email: email,
+                        _subject: `[Portfolio Contact] ${subject || 'New Message from ' + name}`,
+                        message: message,
+                        _replyto: email,
+                        _template: "table"
+                    })
+                });
+
+                const result = await response.json();
+
+                if (response.ok && (result.success === "true" || result.success === true || result.message)) {
+                    showToast(`Thank you, ${name}! Your message has been sent to Preeti's inbox.`);
+                    contactForm.reset();
+                } else {
+                    // Fallback to standard post submission if needed
+                    contactForm.submit();
+                }
+            } catch (err) {
+                console.error("FormSubmit dispatch error:", err);
+                // Resilient fallback to browser form submission
+                contactForm.submit();
+            } finally {
                 submitBtn.disabled = false;
                 submitBtn.innerHTML = originalBtnHtml;
-            }, 1500);
+            }
         });
     }
 });
